@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+{
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write",
+        "eslint --fix"
+      ],
+      "src/**/*.test.{js,jsx,ts,tsx}": [
+        "eslint --fix"
+      ]
+    }
+  }
+=======
+{
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write",
+        "eslint --fix"
+      ],
+      "src/**/*.test.{js,jsx,ts,tsx}": [
+        "eslint --fix"
+      ]
+    }
+  }
+>>>>>>> 9a11a12a01052d927fcc253069a6436b46bdb405
+  
